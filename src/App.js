@@ -1,11 +1,12 @@
 import React from 'react';
-import { Counter } from './features/counter/Counter';
+
 import './App.css';
+import AddTodo from './components/AddTodo';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <AddTodo />
     </div>
   );
 }
