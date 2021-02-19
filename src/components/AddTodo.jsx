@@ -19,7 +19,7 @@ const AddTodo = (props) => {
               e.target.userInput.value = '';
             }}
           >
-            <input name="userInput" type="text" />
+            <input name="userInput" placeholder="add todo ..." type="text" />
             <button>+</button>
           </form>
           <ol>
